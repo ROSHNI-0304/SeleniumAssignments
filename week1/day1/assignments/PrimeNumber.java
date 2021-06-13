@@ -45,7 +45,7 @@ public class PrimeNumber {
 	public static void main(String[] args) {
 
 
-
+		
 		// Declare an int Input and assign a value 13
 
 		
