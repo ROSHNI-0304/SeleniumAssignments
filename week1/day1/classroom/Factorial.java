@@ -17,8 +17,18 @@ public class Factorial {
 	 * 2)
 	 * 3) 
 	 * 
-	 */	
-	
+	 *
+
+	class FactorialExample{  
+ public static void main(String args[]){  
+  int i,fact=1;  
+  int number=5;//It is the number to calculate factorial    
+  for(i=1;i<=number;i++){    
+      fact=fact*i;    
+  }    
+  System.out.println("Factorial of "+number+" is: "+fact);    
+ }  
+}
 	public static void main(String[] args) {
 
 		// Declare your input as 5
