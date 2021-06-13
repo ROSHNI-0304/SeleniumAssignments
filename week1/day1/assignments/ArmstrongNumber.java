@@ -43,7 +43,20 @@ public class ArmstrongNumber {
 	
 
 	public static void main(String[] args) {
-
+    int x=0,a,b;  
+    int n=153;//It is the number to check armstrong    
+    while(n>0)  
+    {  
+    a=n%10;  
+    n=n/10;  
+    x=x+(a*a*a);  
+    }  
+    if(b==x)  
+    System.out.println("armstrong number");   
+    else  
+        System.out.println("Not armstrong number");   
+   }  
+}
 		
 
 		// Declare your input
